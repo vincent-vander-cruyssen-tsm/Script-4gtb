@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Applicatie</title>
+</head>
+
+<body>
+    <header>
+        <h1>Naam HTML Applicatie</h1>
+    </header>
+    <main>
+        <section id="intro">
+            <h2>Meer informatie over deze applicatie!</h2>
+            <img src="images/klaslokaal1.jpg" alt="Foto van klaslokaal" width="300">
+            <p>Klik hier voor <a href="http://google.com">meer foto's van klaslokalen</a>. </p>
+            <p>Klik hier voor <a href="URL">MEER FOTOS</a></p>
+        </section>
+        <section id="lijstjes">
+            <h2>Wat ik wel mag doen in de klas:</h2>
+            <ul>
+                <li>zwijgen</li>
+                <li>opletten</li>
+                <li>luisteren</li>
+            </ul>
+            <h2>Wat ik niet mag doen in de klas:</h2>
+            <ol>
+                <li>geluiden afspelen</li>
+                <li>de les verstoren</li>
+            </ol>
+        </section>
+        <section id="formulier">
+            <form action="">
+                <fieldset>
+                    <legend>Wat is jouw bijnaam?</legend>
+                    <input type="text" placeholder="Schrijf hier je bijnaam">
+                </fieldset>
+                <fieldset>
+                    <legend>Wat is jouw leeftijd?</legend>
+                    <input type="number" name="leeftijd" min="1" max="120">
+                </fieldset>
+                <fieldset>
+                    <legend>Wat is de kleur van de muren van het klaslokaal?</legend>
+                    <input type="radio" name="kleur" value="rood">Rood lokaal
+                    <input type="radio" name="kleur" value="blauw">Blauw lokaal
+                    <input type="radio" name="kleur" value="groen">Groen lokaal
+                </fieldset>
+                <fieldset>
+                    <legend>Wat is er aanwezig in het klaslokaal?</legend>
+                    <input type="checkbox" name="aanwezig" value="projector">Projector
+                    <input type="checkbox" name="aanwezig" value="stoelen">Stoelen
+                    <input type="checkbox" name="aanwezig" value="banken">Banken
+                </fieldset>
+                <fieldset>
+                    <legend>Heeft u nog een opmerking:</legend>
+                    <textarea name="opmerking" cols="20" rows="4"></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>Waar heeft u deze applicatie leren kennen?</legend>
+                    <select name="enquete">
+                        <option value="vrienden">Vrienden/Familie</option>
+                        <option value="advertentie">Advertentie</option>
+                        <option value="andere">Andere</option>
+                    </select>
+                </fieldset>
+                <button type="submit">Verzenden</button>
+                <button type="reset">Herstellen</button>
+            </form>
+        </section>
+
+
+    </main>
+</body>
+
+</html>

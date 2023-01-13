@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+body {
+    background-color: hsl(120, 47%, 63%);
+    color: hsl(173, 37%, 46%);
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+header {
+    background-color: Tomato;
+    background-image: url(images/klaslokaal1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+h1 {
+    color: rgb(122, 60, 163);
+    margin-bottom: 100px;
+}
+
+nav {
+    background-color: rgb(203, 174, 174);
+}
+
+nav li {
+    color: red;
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    padding: 25px;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: red;
+}
+
+main {
+    background-color: hsl(0, 51%, 87%);
+}
+
+section {
+    padding: 50px;
+}
+
+#merch {
+    background-color: #7ff;
+}
+
+#gallerij h2 {
+    font-size: 50px;
+}
+
+#gallerij img {
+    width: 20%;
+}
+
+footer {
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    height: 80px;
+}
