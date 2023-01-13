@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(159, 231, 232);
+    font-family: sans-serif;
+}
+
+#about {
+    display: flex;
+}
+
+.col {
+    border: 1px solid red;
+    padding: 40px;
+}
+
+.left {
+    width: 30%;
+}
+
+.right {
+    width: 70%;
+}
