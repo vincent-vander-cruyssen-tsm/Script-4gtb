@@ -1,21 +1,59 @@
+
+
 body {
-    background-color: rgb(159, 231, 232);
-    font-family: sans-serif;
+    background-color: rgb(56, 117, 65);
+    font-family: Trebuchet MS;
+    color: rgb(32, 32, 137);
+}
+
+h2, p, li {
+    margin-bottom: 16px;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: blue;
+}
+
+header, #about, footer {
+    margin: 0 15vw;
+}
+
+header {
+    background-color: rgb(194, 217, 196);
+    padding: 20px;
 }
 
 #about {
     display: flex;
+    background-color: rgb(230, 195, 151);
+    border-radius: 20px;
 }
 
 .col {
-    border: 1px solid red;
     padding: 40px;
+
 }
 
 .left {
-    width: 30%;
+    /* width: 30%; */
+    flex: 1;
 }
 
 .right {
-    width: 70%;
+    /* width: 70%; */
+    flex: 3;
+    border-left: 4px dotted rgb(156, 66, 66);
+}
+
+footer {
+    background-color: #fff;
+    padding: 5%;
 }
