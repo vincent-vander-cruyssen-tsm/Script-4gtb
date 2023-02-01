@@ -3,6 +3,7 @@
 body {
     background-color: rgb(56, 117, 65);
     font-family: Trebuchet MS;
+    
     color: rgb(32, 32, 137);
 }
 
@@ -12,6 +13,8 @@ h2, p, li {
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    /* font-size: 2rem; */
 }
 
 a {
