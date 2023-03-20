@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Sono:wght@200;300;400;500;600;700;800&display=swap');
+@import url("https://use.typekit.net/jxw4qro.css");
 
 * {
     margin: 0;
@@ -12,6 +13,14 @@ body {
     font-family: 'Sono', sans-serif;
 }
 
+h2 {
+    font-family: "cc-deadline-open-variable", sans-serif;
+}
+
+video {
+    width: 100%;
+}
+
 .flex-container {
     display: flex;
     justify-content: space-between;
@@ -19,7 +28,7 @@ body {
 }
 
 .invert {
-    /* filter: invert(1); */
+    filter: invert(1);
 }
 
 header {
@@ -27,7 +36,7 @@ header {
     background-color: rgb(114, 221, 221);
 }
 
-header nav li {
+header li {
     display: inline;
 }
 
@@ -35,10 +44,11 @@ header a {
     padding: 10px;
     background-color: #ead9d9;
     color: rgb(50, 79, 85);
+    font-family: "cc-deadline-open-variable", sans-serif;
 }
 
 header a:hover {
-    background-color: #f7eeee;
+    background-color: #f70eee;
 }
 
 header img {
@@ -46,6 +56,7 @@ header img {
 }
 
 header input {
+    border: none;
     border-radius: 20px;
     padding: 5px 10px;
     width: 100px;
@@ -53,5 +64,5 @@ header input {
 
 header i {
     margin-left: 1ch;
-    font-size: 20px;
+    font-size: 16px;
 }
