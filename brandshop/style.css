@@ -15,9 +15,14 @@ body {
 
 h2 {
     font-family: "cc-deadline-open-variable", sans-serif;
+    margin-bottom: 1.5rem;
 }
 
-video {
+p {
+    margin-bottom: 1rem;
+}
+
+img, video {
     width: 100%;
 }
 
@@ -25,6 +30,11 @@ video {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 2rem;
+}
+
+.flex-item {
+    flex: 1;
 }
 
 .invert {
@@ -65,4 +75,75 @@ header input {
 header i {
     margin-left: 1ch;
     font-size: 16px;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 0 4rem;
+}
+
+.videoframe {
+    overflow: hidden;
+    max-height: 50vh;
+}
+
+#featured .flex-container {
+    margin-bottom: 3rem;
+}
+
+#featured img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+#membership .flex-item {
+    padding: 2rem;
+}
+
+.highlight {
+    background-color: #dfcd5b;
+}
+
+.memberfoto {
+    background-image: url(img/memberfoto-1.webp);
+    background-size: cover;
+    align-self: stretch;
+}
+
+#categorien {
+    background-color: #fff;
+}
+
+/* footer vormgeving */
+
+footer {
+    padding: 3rem;
+    background-color: rgb(201, 206, 96);
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer li:first-child a {
+    font-weight: 900;
+    font-size: 1.2rem;
 }
